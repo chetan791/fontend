@@ -1,0 +1,16 @@
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  background-color: #242d34;
+}
+
+#navbar > ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+#navbar > ul > Link {
+  cursor: pointer;
+}
